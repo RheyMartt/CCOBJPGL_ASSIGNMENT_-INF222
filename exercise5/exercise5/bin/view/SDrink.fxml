@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DrinkController">
+   <children>
+      <ImageView fx:id="cokeimg" fitHeight="159.0" fitWidth="138.0" layoutX="21.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../coke.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn1" layoutX="69.0" layoutY="162.0" mnemonicParsing="false" onAction="#showInfo" text="Coke" />
+      <ImageView fx:id="pepsiimg" fitHeight="150.0" fitWidth="170.0" layoutX="203.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../pepsi.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn2" layoutX="256.0" layoutY="162.0" mnemonicParsing="false" onAction="#showInfo" text="Pepsi" />
+      <ImageView fx:id="rootbeerimg" fitHeight="150.0" fitWidth="200.0" layoutX="405.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../rootbeer.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn3" layoutX="447.0" layoutY="162.0" mnemonicParsing="false" onAction="#showInfo" text="Rootbeer" />
+      <ImageView fx:id="royalimg" fitHeight="150.0" fitWidth="138.0" layoutX="21.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../royal.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn4" layoutX="64.0" layoutY="340.0" mnemonicParsing="false" onAction="#showInfo" text="Royal" />
+      <ImageView fx:id="spriteimg" fitHeight="150.0" fitWidth="200.0" layoutX="405.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../sprite.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn5" layoutX="456.0" layoutY="340.0" mnemonicParsing="false" onAction="#showInfo" text="Sprite" />
+      <Label layoutX="212.0" layoutY="200.0" prefHeight="131.0" prefWidth="150.0" text="PICK YOUR DRINK" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
