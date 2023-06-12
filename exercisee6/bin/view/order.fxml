@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="590.0" prefWidth="541.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <ImageView fitHeight="94.0" fitWidth="200.0" layoutX="172.0" layoutY="52.0">
+         <image>
+            <Image url="@../images/ikea.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="228.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to ikea" />
+      <Text layoutX="64.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product" />
+      <Text layoutX="202.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+      <Text layoutX="455.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date" />
+      <Text layoutX="372.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QTY" />
+      <Line endX="-100.0" endY="252.0" layoutX="257.0" layoutY="226.0" startX="-100.0" />
+      <Line endX="-100.0" endY="252.0" layoutX="408.0" layoutY="226.0" startX="-100.0" />
+      <Line endX="-100.0" endY="252.0" layoutX="530.0" layoutY="226.0" startX="-100.0" />
+      <Line endX="357.0" layoutX="147.0" layoutY="257.0" startX="-100.0" />
+      <Label fx:id="name2" layoutX="67.0" layoutY="328.0" text="Label" />
+      <Label fx:id="name1" layoutX="67.0" layoutY="286.0" text="Label" />
+      <Label fx:id="name3" layoutX="64.0" layoutY="372.0" text="Label" />
+      <Label fx:id="price1" layoutX="214.0" layoutY="286.0" text="Label" />
+      <Label fx:id="price3" layoutX="214.0" layoutY="372.0" text="Label" />
+      <Label fx:id="price2" layoutX="214.0" layoutY="328.0" text="Label" />
+      <Label fx:id="qty1" layoutX="358.0" layoutY="286.0" text="Label" />
+      <Label fx:id="qty2" layoutX="358.0" layoutY="328.0" text="Label" />
+      <Label fx:id="qty3" layoutX="358.0" layoutY="372.0" text="Label" />
+      <Label fx:id="date2" layoutX="466.0" layoutY="328.0" text="Label" />
+      <Label fx:id="date1" layoutX="466.0" layoutY="286.0" text="Label" />
+      <Label fx:id="date3" layoutX="466.0" layoutY="381.0" text="Label" />
+      <Label layoutX="262.0" layoutY="522.0" text="Total: " />
+      <Label fx:id="totalLabel" layoutX="303.0" layoutY="522.0" text="Label" />
+   </children>
+</AnchorPane>

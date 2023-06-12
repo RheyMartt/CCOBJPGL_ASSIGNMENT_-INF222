@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<?import javafx.scene.control.Label?>
+
+<?import javafx.scene.image.Image?>
+
+<?import javafx.scene.image.ImageView?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.text.Font?>
+
+
+
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="487.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+
+   <children>
+
+      <ImageView fitHeight="96.0" fitWidth="398.0" layoutX="180.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+
+         <image>
+
+            <Image url="@../images/ikea.png" />
+
+         </image>
+
+      </ImageView>
+
+      <Label fx:id="name1" layoutX="74.0" layoutY="244.0" prefHeight="35.0" prefWidth="78.0" text="name1">
+
+         <font>
+
+            <Font size="24.0" />
+
+         </font>
+
+      </Label>
+
+      <Label fx:id="name3" layoutX="74.0" layoutY="374.0" prefHeight="35.0" prefWidth="78.0" text="name3">
+
+         <font>
+
+            <Font size="24.0" />
+
+         </font>
+
+      </Label>
+
+      <Label fx:id="name2" layoutX="74.0" layoutY="308.0" prefHeight="35.0" prefWidth="78.0" text="name2">
+
+         <font>
+
+            <Font size="24.0" />
+
+         </font>
+
+      </Label>
+
+      <Label fx:id="quan" layoutX="222.0" layoutY="188.0" prefHeight="35.0" prefWidth="98.0" text="quantity">
+
+         <font>
+
+            <Font size="24.0" />
+
+         </font>
+
+      </Label>
+
+      <Label fx:id="prize" layoutX="381.0" layoutY="188.0" prefHeight="35.0" prefWidth="78.0" text="prize">
+
+         <font>
+
+            <Font size="24.0" />
+
+         </font>
+
+      </Label>
+
+      <Label fx:id="quan1" layoutX="222.0" layoutY="244.0" prefHeight="35.0" prefWidth="78.0" text="quan1">
+
+         <font>
+
+            <Font size="24.0" />
+
+         </font>
+
+      </Label>
+
+      <Label fx:id="prize1" layoutX="368.0" layoutY="244.0" prefHeight="35.0" prefWidth="78.0" text="prize1">
+
+         <font>
+
+            <Font size="24.0" />
+
+         </font>
+
+      </Label>
+
+      <Label fx:id="quan2" layoutX="222.0" layoutY="314.0" prefHeight="35.0" prefWidth="78.0" text="quan2">
+
+         <font>
+
+            <Font size="24.0" />
+
+         </font>
+
+      </Label>
+
+      <Label fx:id="prize2" layoutX="360.0" layoutY="314.0" prefHeight="35.0" prefWidth="78.0" text="prize2">
+
+         <font>
+
+            <Font size="24.0" />
+
+         </font>
+
+      </Label>
+
+      <Label fx:id="quan3" layoutX="222.0" layoutY="374.0" prefHeight="35.0" prefWidth="78.0" text="quan3">
+
+         <font>
+
+            <Font size="24.0" />
+
+         </font>
+
+      </Label>
+
+      <Label fx:id="prize3" layoutX="368.0" layoutY="374.0" prefHeight="35.0" prefWidth="78.0" text="prize3">
+
+         <font>
+
+            <Font size="24.0" />
+
+         </font>
+
+      </Label>
+
+   </children>
+
+</AnchorPane>
+
+
